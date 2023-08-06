@@ -1,0 +1,71 @@
+body {
+	background-color: #101010;
+	color: #F5F5F5;
+	font-family: 'Geologica', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.box1 {
+	height: 800px;
+	width: 1200px;
+	margin: 20px auto 20px;
+	border: 3px solid black; /* Black border */
+	border-radius: 6px; /* Border radius of 6px */
+	background-color: #fc8d83;
+}
+
+.box2 {
+	text-align: center;	
+}
+
+.box3 {
+	text-align: center;	
+	font-size: 8px;
+}
+
+.inp1, .inp2, .inp3 {
+	background-color: #fc8d83;
+	border-radius: 6px;
+	border: 3px solid black;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 9px 1px;
+	text-decoration: none;
+	margin-right: 10px;
+	width: 120px;
+	text-align: center;
+}
+
+.inp4 {
+
+  border: 2px solid #ccc;
+  border-radius: 2222px;
+
+}
+
+.btn1, .btn2 {
+	background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color: #fc8d83;
+	border-radius: 6px;
+	border: 3px solid black;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 9px 18px;
+	text-decoration: none;
+}
+
+.btn1:hover {
+	background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color: #e4685d;
+}
+
+.btn1:active {
+	position: relative;
+	top: 1px;
+}
